@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">
+                <input placeholder="Enter your name" id="name" type="text" required>
+            </label>
+            <label id="email-label">
+                <input placeholder="Enter your Email" id="email" type="email" required>
+            </label>
+            <label id="number-label">
+                <input placeholder="Age" min="13" max="120" id="number" type="number">
+            </label>
+        </fieldset>
+        <select id="dropdown">
+            <option name="role">Select current role</option>
+            <option name="role">Full Time Job</option>
+            <option name="role">Full Time Learner</option>
+            <option name="role">Prefer not to say</option>
+            <option name="role">Other</option>
+        </select>
+        <label>
+            <input name="recommend" value="definitely" type="radio"> Definitely
+        </label>
+        <label>
+            <input name="recommend" value="maybe" type="radio"> Maybe
+        </label>
+        <label>
+            <input name="recommend" value="not-sure" type="radio"> Not sure
+        </label>
+        <label>
+            <input value="not-sure" type="checkbox">
+            Front-end Projects
+        </label>
+        <label>
+            <input value="not-sure" type="checkbox">
+            Back-end Projects
+        </label>
+        <label>
+            <input value="not-sure" type="checkbox">
+            Data Visualization
+        </label>
+        <textarea></textarea>
+        <button id="submit">
+    </form>
+</body>
+
+</html>
